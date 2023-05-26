@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Giimark College</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+
+</head>
+<style>
+
+  body
+  {
+    padding: 0%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    background-color: rgb(44, 44, 131);
+    color: white;
+    font-size: 20px;
+	opacity: 50px;
+  }
+  a{
+	text-decoration: none;
+	color: white;
+}
+a{
+	text-decoration: underline;
+	color: white;
+  font-size: 20px;
+}
+a:link, a:visited{
+color:red;
+}
+a:hover, a:active{
+background-color: red;
+color:#fff;
+}
+.mainheader img{
+	width: 10%;
+	height: auto;
+	margin: 2% 0;
+}
+.mainheader nav {
+  background-color: blue;
+  height: 2.5em; /* Converted from 40px */
+  line-height: 2.5em; /* Converted from 40px */
+  border-radius: 0.125em; /* Converted from 5px */
+  -moz-border-radius: 0.125em; /* Converted from 5px */
+  -webkit-border-radius: 0.125em; /* Converted from 5px */
+}
+inheader nav ul {
+list-style-type: none;
+margin: 0 auto;
+}
+.mainheader nav ul li {
+list-style-type: none;
+margin: 0 auto;
+float: left;
+display: inline-block;
+}
+.mainheader nav a:link, .mainheader nav a:visited{
+color: #fff;
+
+padding: 10px 25px;
+height: 20px;
+}
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainHeader nav .active a:visited
+{
+ background-color: red;
+ text-shadow: none;
+}
+.mainheader nav ul li a{
+	border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+}
+
+</style>
+<body class="body">
+	<header class="mainheader">
+		  <img src="pics/logo.jpg" width="120px" height="80px">
+		  
+		  <nav>
+			  <ul> 
+		<li><a href="index.html">Home</a></li>
+		<li><a href="course.html">Courses</a></li>
+		<li><a href="about.html">About Us</a></li>	
+		<li><a href="contact.html">Contact</a></li>
+		  
+			  </ul> 
+		  </nav>
+
+</header>
+<br>
+<div class="slideshow-container">
+
+<div class="iambrpslides fade">
+  <div class="numbertext">01 / 06</div>
+  <img src="pics/image7.jpg">
+ </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">02 / 06</div>
+  <img src="pics/image8.jpg">
+  </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">03 / 06</div>
+  <img src="pics/image1.jpg">
+</div>
+<!-- <div class="iambrpslides fade">
+	<div class="numbertext">04 / 06</div>
+	<img src="pics/image4.jpg">
+  </div>
+  <div class="iambrpslides fade">
+	<div class="numbertext">05 / 06</div>
+	<img src="pics/image2.jpg">
+  </div> -->
+  <div class="iambrpslides fade">
+	<div class="numbertext">06 / 06</div>
+	<img src="pics/image6.jpg">
+  </div>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <!-- <span class="dot"></span> 
+  <span class="dot"></span>  -->
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // This is for Changing image every 5 seconds
+}
+</script>
+<br>
+		
+		<script type="text/javascript">
+  document.title="Home";
+</script>
+			
+			  
+				<article class="bottomContent">
+					<header>
+					<h3>Courses on Offer:</h3>  
+					</header>
+					<content>
+		<p>
+			
+						<ul  >
+        
+						<li>Business Administration</li>   <li>Information Technology</li>
+						<li>Leadership and Management</li>
+						<li>Graphic Design</li>
+						<li>Computer Packages</li>
+						<li>Sales and Marketing</li>
+						<li>Supply Chain Management</li>
+						<li>Accounting and Finance</li>
+						<li>Human Resource Management</li>
+						<li>ECD</li>
+						<li>Secretarial Studies</li>
+						
+					</ul>
+		
+		
+		</p>
+					</content>
+				</article>
+				
+
+			
+		<article class="bottomContent">
+			<header>
+			<h3>Mission	</h3>  
+			</header>
+			<content>
+<p>
+	To produce leaders,learners and entrepreneurs through knowledge and skills impartation
+
+
+</p>
+			</content>
+		</article>
+		<article class="bottomContent">
+			<!-- <header>
+			<h3><a href="#" title="Pathway Programme">Mission</a>	</h3>  
+			</header> -->
+			<content>
+				<h3>About Us</h3>
+					<ul>
+						<li>Focus on Quality</li>
+						<li>Flexible Payment Plans</li>
+						<li>Free WIFI</li>
+						<li>Morning/Evening Classes</li>
+						<li>Free Mentorship</li>
+					</ul>
+					
+					<h3>Opening hours</h3>
+					<ul>
+						<li>Mon-Fri : 8:00 AM - 6:00 PM</li>
+						<li>Saturday : Closed</li>
+						<li>Sunday : Closed</li>
+						
+					</ul>
+
+			</content>
+		</article>
+		
+
+		<footer class="mainFooter">
+			<p>Copyright &copy <a href="https://www.facebook.com/GiimarkCollege/">Giimark College</a> </p>
+			<center>
+				<a href="https://www.facebook.com/GiimarkCollege/">Facebook</a>
+			<a href="https://www.linkedin.com/company/giimark-college/">LinkedIn</a>
+			</center>
+		  </footer>
+		  
+		  </body>
+		  </html> 
+		  <script type="text/javascript">
+			document.title="Contact";
+		  </script>
+ </body>
+ </html>
